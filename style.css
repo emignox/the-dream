@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.211), rgba(255, 255, 255, 0.155)), url('money.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+
+  .title {
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 42px;
+  }
+  
+
+
+  .importo {
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    appearance: none;
+  }
+  
+  .label1 {
+    position: relative;
+    text-align: center;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    border-radius: 12px;
+    height: 30px;
+    background-color: #ffffff;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+  body, p, form, label, input, select, button {
+    margin: 0;
+    padding: 0;
+  }
+.premiere{
+    position: relative;
+    text-align: center;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+.duxieme{
+    position: relative;
+    text-align: center;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+/* Stile generale per il select */
+select {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    color: #333;
+    appearance: none; /* Nasconde la freccia del menu dropdown su alcuni browser */
+  }
+  
+  /* Stile per le opzioni nel dropdown */
+  option {
+    color: rgb(215, 215, 215);
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Stile quando l'opzione è selezionata */
+  option:checked {
+    background-color: #f4f4f4;
+    color: #000;
+  }
+  .conversion{
+    background-color:  rgba(49, 198, 0, 0.515);
+  position: relative;
+  text-align: center;
+  top: 30vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  color: rgb(54, 54, 54);
+  font-size: 32px;
+  border-radius: 10px;
+  }
+
+  .result{
+    position: relative;
+  text-align: center;
+  top: 35vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  }
+
+  
+
+  
