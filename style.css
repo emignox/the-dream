@@ -17,9 +17,10 @@ body {
   .title {
     text-align: center;
     position: absolute;
-    top: 25px;
+    top: 30px;
     width: 100%;
     color: rgb(0, 0, 0);
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 42px;
   }
@@ -46,9 +47,11 @@ body {
     max-width: 100%;
     margin: 0 auto;
     color: rgb(0, 0, 0);
+    margin-bottom: 20px;
     font-size: 19px;
     border-radius: 12px;
     height: 30px;
+    margin-bottom:32px;
     background-color: #ffffff;
   }
   input[type="number"]::-webkit-inner-spin-button,
@@ -66,7 +69,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .premiere{
     position: relative;
     text-align: center;
-    top: 20vh;
+    top: 30vh;
     left: 50%;
     transform: translateX(-50%);
     width: 300px;
@@ -76,17 +79,19 @@ input[type="number"]::-webkit-outer-spin-button {
 .duxieme{
     position: relative;
     text-align: center;
-    top: 25vh;
+    top: 35vh;
     left: 50%;
     transform: translateX(-50%);
     width: 300px;
     color: rgb(0, 0, 0);
+    margin-bottom: 20px;
     font-size: 32px;
 }
 
 /* Stile generale per il select */
 select {
     width: 100%;
+    padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -111,19 +116,19 @@ select {
     background-color:  rgba(49, 198, 0, 0.515);
   position: relative;
   text-align: center;
-  top: 30vh;
+  top: 40vh;
   left: 50%;
   transform: translateX(-50%);
   width: 300px;
   color: rgb(54, 54, 54);
+  margin-bottom: 20px;
   font-size: 32px;
   border-radius: 10px;
   }
-
   .result{
     position: relative;
   text-align: center;
-  top: 35vh;
+  top: 40vh;
   left: 50%;
   transform: translateX(-50%);
   color: rgb(0, 0, 0);

@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1 class="title">Welcome! <br> Convert your currency</h1>
+        <h1 class="title">Welcome! <br> Convert your currency </h1>
     </header>
     <main>
         <form method="post">
